@@ -1,0 +1,189 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar-custom {
+    background-color: #343a40; /* Dark background color for the navbar */
+}
+
+.bg-image {
+    background-image: url(./image/imaggg.jpg); /* Replace with your actual image path */
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+}
+
+.content {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.btn-custom {
+    background-color:blue; /* Custom button color */
+    border: none;
+}
+
+h1 {
+    font-size: 4em; /* Adjust font size as needed */
+}
+
+p {
+    font-size: 1.5em; /* Adjust font size as needed */
+}
+
+
+.workflow-section {
+    background-color: #333; /* Dark background color */
+    color: #fff; /* White text color */
+}
+
+.section-title {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.icon img {
+    width: 80px; /* Adjust the size of the icons as needed */
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.workflow-section .section-subtitle {
+    text-align: center;
+}
+
+.workflow-section p {
+    font-size: 1em;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.container {
+    max-width: 1200px; /* Adjust the maximum width of the container */
+    margin: 0 auto;
+    padding: 5em;  
+}
+
+
+
+.accent-line {
+    text-align: center;
+}
+
+.heading p {
+    text-align: center;
+}
+
+.component {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+@media (min-width: 576px) {
+    .card-group {
+        display: flex;
+        flex-flow: row wrap;
+    }
+}
+
+
+.component.card-group {
+    display: flex;
+    gap: 15px; /* Adjust as needed */
+}
+
+.card {
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+    min-height: 300px; /* Adjust as needed */
+}
+
+.card-link {
+    display: block;
+    position: relative;
+    color: inherit;
+    height: 100%;
+}
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the card without stretching */
+    display: block;
+}
+
+.card-img-overlay {
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    color:#fff;
+    font-size: 1em;
+}
+
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+
+
+ul.social {
+    display: flex;
+    gap: 2rem; /* This adds space between the flex items */
+    margin-top: 0;
+    margin-bottom: 0;
+}
+  
+ul {
+    list-style-type: none;
+  }
+
+
+footer {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
