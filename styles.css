@@ -35,8 +35,8 @@ body, html {
 }
 
 .btn-custom {
-    background-color: darkred; /* Custom button color */
-    border: none;
+    background-color: darkgoldenrod; /* Custom button color */
+    border: white solid;
 }
 
 h1 {
@@ -46,7 +46,6 @@ h1 {
 p {
     font-size: 1.5em; /* Adjust font size as needed */
 }
-
 
 .workflow-section {
     background-color: #333; /* Dark background color */
